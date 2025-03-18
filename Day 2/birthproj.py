@@ -1,0 +1,6 @@
+birthday= input('enter your favorite birthday:')
+my_birthday= input('enter your birthday:')
+aprilfools=input ("enter the date for april fools:")
+mothersday=input("enter the date for mother's day:")
+usaindependence= input("Enter the US' day of independence:")
+print("Great Job answering all my questions!")
