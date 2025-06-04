@@ -24,6 +24,6 @@ def total(city,nights,days):
     return hotelcost(nights)+planeticket(city)+carrental(days)
 print("we will calculate your trip's costs")
 city=input("enter the city you are flying to:")
-days=int(input("enter the amount of days you are staying"))
-nights=int(input("enter the amount of nights you are staying"))
+days=int(input("enter the amount of days you are staying:"))
+nights=int(input("enter the amount of nights you are staying:"))
 print("your total expenses are",total(city,nights,days))
