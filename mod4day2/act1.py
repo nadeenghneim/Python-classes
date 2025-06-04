@@ -1,0 +1,10 @@
+tuple=(2,4,6,'even','odd',1,3,5)
+print(tuple[4])
+#find length, count, use index value, concatenation, slicing 
+print("the length of your tuple is",len(tuple))
+print("the number of times 1 rpeats in your tuple is", tuple.count(1))
+print("the middle of your tuple is ",tuple[3:5])
+tuple2=(100,89,76,98,'your marks')
+print(tuple+tuple2)
+nested=("a",'b','c','d',[1,2,3,4,5],'z','y','x')
+print(nested[4][2])
