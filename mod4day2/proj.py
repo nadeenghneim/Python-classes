@@ -1,5 +1,5 @@
 tuple=(1,2,3,4,5,6)
-x=[]
+result=1
 for i in tuple:
-    i.append(x)
-print(x)
+    result*=i
+print("the product of the numbers in your tuple is:",result)
