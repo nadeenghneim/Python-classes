@@ -5,3 +5,6 @@ print(result)
 names=["nadeen",'bob','lyn','sara','dan']
 checking=[x for x in names if len(x)==3]
 print("the names containing only three letters are ",checking)
+fruits=["apples",'oranges','mangos','pineapple']
+capital=[y.capitalize() for y in fruits if type(y)==str]
+print("your list of fruits capitalized:",capital)
