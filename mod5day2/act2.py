@@ -6,5 +6,10 @@ class employee():
     def __del__(self):
         print("employee fired!")
 
-e=employee()
+def checking():
+    print("we will create an object:")
+    e=employee()
+    print("the object is created:" )
+    return e 
+e=checking()
 
