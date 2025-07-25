@@ -17,3 +17,27 @@ while True:
 for i in meanings:
     print(i)
 
+
+
+
+
+class Orange(Fruits):
+    def __init__(self,color):
+        self.color
+    def answer(self):
+        print("An Orange's color is ",self.color)
+class Mango(Fruits):
+    def __init__(self,color):
+        self.color
+    def answer(self):
+        print("A Mango's color is ",self.color)
+class Banana(Fruits):
+    def __init__(self,color):
+        self.color
+    def answer(self):
+        print("A Banana's color is ",self.color)
+class Pineapple(Fruits):
+    def __init__(self,color):
+        self.color
+    def answer(self):
+        print("A Pineapple's color is ",self.color)
